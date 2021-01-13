@@ -34,7 +34,7 @@ const DATA = {
 
   cardGroup: function() {
     return (
-      <div className="card-group " data-aos="fade-up" data-aos-duration="2000">
+      <div className="card-group " data-aos="fade-up" data-aos-duration="3000">
         {this.card()}
         {this.card()}
         {this.card()}
