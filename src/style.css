@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #292b2c !important;
+}
+.navbar-dark {
+  opacity: 0.6 !important;
+  height: 55px !important;
+  padding: 3px;
+  padding-left: 0;
+}
+
+.bg-light {
+  opacity: 0.8 !important;
+}
+.row > h1 {
+  letter-spacing: 8px;
+}
+
+.carousel-item > img {
+  opacity: 0.8;
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.card {
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 10px !important;
+}
+
+img {
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.gallery img:hover {
+  opacity: 0.9;
+  transform: translateY(-5px);
+  transition: all 0.3s;
+  box-shadow: 4px 4px rgb(201, 163, 40);
+}
+
+strong {
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+
+strong:hover {
+  color: rgb(201, 163, 40);
+
+  transition: all 0.6s;
+}
+.whoAreWe {
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(70%);
+}
+.aboutText {
+  font-size: 20px;
+  text-align: justify;
+  line-height: 28px;
+}
+.whoAreWe:hover {
+  transition: ease-in-out 0.8s;
+  background-color: rgb(201, 163, 40);
+  color: black;
+}
+
+.fab:hover {
+  color: rgb(201, 163, 40);
+}
+
+.copyright {
+  background-color: rgba(0, 0, 0, 0.2);
+}
