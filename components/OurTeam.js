@@ -66,7 +66,12 @@ export default function OurTeam() {
 
 function Team() {
   useEffect(() => {
-    AOS.init();
+    AOS.init(
+      {
+        duration: 2000
+      }
+    );
+
    
   }, []);
 
