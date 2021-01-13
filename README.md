@@ -11,5 +11,5 @@ Nature is a landing page aims to display photographs that a group of photographe
 
 *This project is made with React.js *
 
-
+[![](https://github.com/yagnurl/nature-project-react/blob/master/nature-preview.png?raw=true)](http://https://github.com/yagnurl/nature-project-react/blob/master/nature-preview.png?raw=true)
 
