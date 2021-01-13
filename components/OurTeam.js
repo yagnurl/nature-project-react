@@ -64,10 +64,10 @@ export default function OurTeam() {
 }
 
 
-function App() {
+function Team() {
   useEffect(() => {
     AOS.init();
-    AOS.refresh();
+   
   }, []);
 
   return (
@@ -75,4 +75,4 @@ function App() {
   );
 }
 
-export default App;
+export default Team;
